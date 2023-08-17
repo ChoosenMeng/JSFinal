@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1692071419397') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-left_x:before {
+  content: "\e6a3";
+}
+
+.icon-right_x:before {
+  content: "\e6a4";
+}
+
+.icon-sousuo:before {
+  content: "\e664";
+}
+
