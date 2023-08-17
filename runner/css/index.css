@@ -116,7 +116,7 @@ body{
 .banner{
     width: 790px;
     height: 470px;
-    background-color: red;
+    /* background-color: red; */
     margin: 0 auto;
     margin-top: 10px;
 }
@@ -161,10 +161,35 @@ body{
     height: 35px;
     color: #fff;
     font-weight: 700;
+    user-select: none;
 }
 
 .banner-box>.next>i{
     position: relative;
     left: 5px;
+}
+
+.banner-box>ul{
+    height: 15px;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+
+.banner-box>ul>li{
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgba(0, 0, 0,.05);
+    background-color: rgba(255,255,255,.4);
+    margin-right: 4px;
+    border-radius: 50%;
+}
+
+.banner-box>ul>.active{
+    position: relative;
+    top: -1px;
+    border: 2px solid rgba(0, 0, 0,.01);
+    background-color: rgba(255, 255,255,.9);
 }
 /*轮播图结束*/
