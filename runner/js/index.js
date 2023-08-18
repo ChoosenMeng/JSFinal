@@ -88,3 +88,20 @@ for(let i = 0; i < lis.length; i++){
         point();        
     }
 }
+
+let header = document.querySelector('.header');
+let banner = document.querySelector('.banner');
+let elevator = document.querySelector('.elevator');
+
+//绑定滚动条事件
+document.onscroll = function(){
+    let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+
+    let base = header.clientHeight + banner.clientHeight + 20 + 10;
+
+    if(scrollTop >= base){
+        elevator.className = 'elevator elevator-fix';
+    } else{
+        elevator.className = 'elevator';
+    }
+}

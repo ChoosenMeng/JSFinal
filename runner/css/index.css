@@ -193,3 +193,65 @@ body{
     background-color: rgba(255, 255,255,.9);
 }
 /*轮播图结束*/
+
+/*主体开始*/
+    .miaosha{
+        height: 260px;
+        margin-top: 30px;
+        background-color: aquamarine;
+    }
+
+    .youxuan{
+        height: 980px;
+        margin-top: 20px;
+        background-color: gold;
+    }
+
+    .guangchang{
+        height: 1005px;
+        margin-top: 20px;
+        background-color: pink;
+    }
+
+    .tuijian{
+        height: 1870px;
+        margin-top: 20px;
+        background-color: aqua;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .elevator{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: 615px;
+        width: 58px;
+        background-color: #fff;
+    }
+
+    .elevator>a{
+        display: block;
+        width: 38px;
+        height: 38px;
+        padding: 10px;
+        color: #333;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        transition: color .2s ease;
+    }
+
+    .elevator>a:hover{
+        background-color: #FFD700;
+        color: #fff;
+    }
+
+    .elevator-fix{
+        position: fixed;
+        top: 75px;
+        transition: all 0.5s;
+    }
+/*主体结束*/
