@@ -1,0 +1,107 @@
+.wrap{
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.product-intro{
+    height: 876px;
+    padding-top: 50px;
+}
+
+.preview-wrap{
+    float: left;
+    width: 352px;
+    height: 464px;
+    padding-bottom: 15px;
+    background-color: skyblue;
+}
+
+.itemInfo-wrap{
+    float: left;
+    width: 590px;
+    height: 876px;
+    margin-left: 30px;
+    margin-left: 24px;
+    background-color: pink;
+}
+
+.track{
+    float: right;
+    width: 210px;
+    height: 643px;
+    background-color: gold;
+}
+
+.main-img{
+    width: 350px;
+    height: 350px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.main-img>img{
+    width: 350px;
+    height: 350px;
+}
+
+.spec-list{
+    position: relative;
+    height: 54px;
+    margin-bottom: 18px;
+    /* background-color: gold; */
+}
+
+.spec-items{
+    position: relative;
+    width: 290px;
+    height: 54px;
+    margin: 0 auto;
+    /* background-color: gold; */
+    overflow: hidden;
+}
+
+.lh{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 406px;
+    height: 54px;
+    transition: all 0.5s;
+}
+
+.lh>li{
+    width: 54px;
+    height: 54px;
+    margin: 0 2px;
+    float: left;
+}
+
+.lh>li>img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+}
+
+.lh>.img-hover>img{
+    border: 2px solid #e53e41;
+}
+
+.spec-list>.prev, .spec-list>.next{
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    width: 22px;
+    height: 32px;
+    background-color: gold;
+}
+
+.spec-list>.prev{
+    left: 0;
+    background: url(./../images/disabled-prev.png) no-repeat;
+}
+
+.spec-list>.next{
+    right: 0;
+    background: url(./../images/__sprite.png) no-repeat;
+    background-position: -78px 0;
+}

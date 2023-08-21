@@ -24,7 +24,7 @@ body{
     top: 10px;
     width: 190px;
     height: 120px;
-    background-color: rgb(206, 194, 30);
+    /* background-color: rgb(206, 194, 30); */
 }
 
 .logo>a{
@@ -63,6 +63,7 @@ body{
     display: block;
     height: 100%;
     background: url(./../images/logo.png)no-repeat;
+    background-position: 0 -120px;
 }
 
 @keyframes searchTop{
@@ -150,7 +151,20 @@ body{
 /*头部结束*/
 
 /*轮播图开始*/
+.wrapcol{
+    position: relative;
+}
+
+.banner-left{
+    width: 190px;
+    height: 470px;
+    margin-right: 10px;
+    background-color: antiquewhite;
+    float: left;
+}
+
 .banner{
+    position: relative;
     width: 790px;
     height: 470px;
     /* background-color: red; */
@@ -162,7 +176,7 @@ body{
     position: relative;
     width: 590px;
     height: 470px;
-    background-color: blue;
+    /* background-color: blue; */
 }
 .banner-box>a>img{
     width: 590px;
@@ -190,6 +204,16 @@ body{
     right: 0;
     border-top-left-radius: 18px;
     border-bottom-left-radius: 18px;
+}
+
+.banner-box-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* float: right; */
+    width: 190px;
+    height: 470px;
+    background-color: blue;
 }
 
 .banner-box i{
@@ -228,6 +252,15 @@ body{
     top: -1px;
     border: 2px solid rgba(0, 0, 0,.01);
     background-color: rgba(255, 255,255,.9);
+}
+
+.banner-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 190px;
+    height: 470px;
+    background-color: pink;
 }
 /*轮播图结束*/
 
