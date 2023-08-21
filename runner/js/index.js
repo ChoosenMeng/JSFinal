@@ -112,6 +112,10 @@ function clearColor() {
     }
 }
 
+let searchDiv = document.querySelector('.search');
+let searchLogo = document.querySelector('.search-logo');
+let searchM = document.querySelector('.search-m');
+let form= document.querySelector('.form');
 
 //绑定滚动条事件
 document.onscroll = function () {
@@ -121,8 +125,16 @@ document.onscroll = function () {
 
     if (scrollTop >= base) {
         elevator.className = 'elevator elevator-fix';
+        searchDiv.className = 'search search-fix';
+        searchLogo.style.display = 'block';
+        searchM.style.height = '50px';
+        form.style.top = '8px';
     } else {
         elevator.className = 'elevator';
+        searchDiv.className = 'search';
+        searchLogo.style.display = 'none';
+        searchM.style.height = '';
+        form.style.top = '';
     }
 
     //判断滚动条滚动过的距离
