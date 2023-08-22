@@ -156,11 +156,38 @@ body{
 }
 
 .banner-left{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 190px;
     height: 470px;
     margin-right: 10px;
-    background-color: antiquewhite;
-    float: left;
+
+    /* background-color: antiquewhite; */
+}
+
+.category-group{
+    height: 450px;
+    padding-top: 10px;
+    background-color: #fefefe;
+    color: #636363;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.category-group>li{
+    height: 25px;
+    padding-left: 18px;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.category-group>li:hover{
+    height: 25px;
+    padding-left: 18px;
+    line-height: 25px;
+    font-size: 12px;
+    background-color: #ccc;
 }
 
 .banner{
