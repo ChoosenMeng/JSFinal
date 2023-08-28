@@ -33,6 +33,7 @@
 }
 
 .main-img{
+    position: relative;
     width: 350px;
     height: 350px;
     border: 1px solid #eee;
@@ -104,4 +105,32 @@
     right: 0;
     background: url(./../images/__sprite.png) no-repeat;
     background-position: -78px 0;
+}
+
+.zoompup{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 236px;
+    height: 236px;
+    background-color: gold;
+    opacity: 0.3;
+    display: none;
+    cursor: move;
+}
+
+.zoomdiv{
+    position: absolute;
+    top: 0;
+    left: 351px;
+    width: 540px;
+    height: 540px;
+    background-color: #e53e41;
+    overflow: hidden;
+    display: none;
+}
+
+.zoomdiv>img{
+    width: 800px;
+    height: 800px;
 }
